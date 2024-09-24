@@ -1,0 +1,22 @@
+name: 'Get  and Cache Dependencies'
+description: ' Get the dependencies and Cache them'
+inputs:
+  bucket:
+    description: ' The S3 Bucket Name'
+    required: true
+
+  bucket-region:
+    description: ' The S3 Bucket region'
+    required: true
+
+  dist-folder:
+    description: ' The folder containing artifacts'
+    required: true
+  
+outputs:
+  website-url:
+    description: The Website URL
+
+runs:
+  using: 'node20'
+  main: 'main.js'
