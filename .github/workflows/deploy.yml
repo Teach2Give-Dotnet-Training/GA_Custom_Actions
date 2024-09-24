@@ -54,7 +54,7 @@ jobs:
       - name: Get Build artifacts
         uses:  actions/download-artifact@v3
         with:
-          name: dist-fles
+          name: dist-files
           path: dist
       - name: Deploy site
         id: deploy
