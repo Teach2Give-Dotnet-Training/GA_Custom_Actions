@@ -10,7 +10,7 @@ inputs:
     required: true
 
   dist-folder:
-    description: ' The folder containing artifacts'
+    description: ' The folder containing build artifacts'
     required: true
   
 outputs:
